@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(700, 700);
+  background("black");
+}
+
+function draw() {
+  
+  fill("red")
+  
+  console.log(mouseIsPressed);
+  
+  if(mouseIsPressed){
+    circle (mouseX, mouseY, 50, 50);    
+  }
+  
+}
